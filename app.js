@@ -6,6 +6,8 @@ var cors  = require('cors')
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/controllers/users');
 var loginRouter = require('./routes/controllers/login');
+var ciudadRouter = require('./routes/controllers/ciudades');
+var sedeRouter = require('./routes/controllers/sedes');
 var swaggerUi = require('swagger-ui-express');
 var swaggerDocument = require('./routes/swagger/swagger.json');
 
@@ -23,4 +25,6 @@ app.use('/api-docs', cors(), swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/login', loginRouter);
+app.use('/ciudad', ciudadRouter);
+app.use('/sede', sedeRouter);
 module.exports = app;
