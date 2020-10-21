@@ -10,7 +10,11 @@ Los pasos para correr el proyecto son :
 3. Para correrlo en mode debug usan el comando NPM RUN DEBUG o para correrlo normal NPM RUN START
 
 
-================================================
+#================================================
 # Coleccion postman
 
 https://www.getpostman.com/collections/c4b89d169e7d8d704798
+
+#================================================
+# Backup base de datos gym
+El back se encuenta en la carpeta database con el nombre de gym.sql
