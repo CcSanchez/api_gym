@@ -37,7 +37,7 @@ router.post("/insertar", async (req, res, next) => {
       throw err;
     } else {
       console.log("body", body);
-      res.send("Insertado correctamente");
+      res.send({mensaje:"Exito al registrar usuario"});
     }
   })
 

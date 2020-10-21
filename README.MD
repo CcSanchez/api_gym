@@ -1,11 +1,16 @@
 Los pasos para correr el proyecto son :
+# Clonar Repositorio
+ Clonar el proyecto del repositorio url https://github.com/CcSanchez/angular_gim.git
 
-1. Clonar el proyecto del repositorio
-2. Realizar NPM I --EXACT
+
+# Instalar dependencias
+ npm i --exact
+
+# Correr modulo
 3. Para correrlo en mode debug usan el comando NPM RUN DEBUG o para correrlo normal NPM RUN START
 
 
 ================================================
-Coleccion de postman 
+# Coleccion postman
 
 https://www.getpostman.com/collections/c4b89d169e7d8d704798
